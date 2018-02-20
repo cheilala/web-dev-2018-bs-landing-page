@@ -11,19 +11,19 @@ hr {
   }
   
   .faded {
-    color: rgba(255, 255, 255, 0.8); 
+    color: rgba(255, 255, 255, 0.9); 
   }
   
   header.startup {
     background-position: center;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/marcus-neto-96651-unsplash.jpg");
     background-size: cover;
     height: 100%;
   }
   
   header.startup hr {
-    margin-top: 200px;
-    margin-bottom: 30px; 
+    margin-top: 400px;
+    margin-bottom: 10px; 
   }
   
   header.startup h1 {
@@ -51,3 +51,11 @@ hr {
     border-width: 5px;
     cursor: pointer;
   }  
+
+  .btn-primary img {
+    transition: transform 1s;
+  }
+
+  .btn-primary img:hover {
+    transform: rotate(1080deg);
+  }
